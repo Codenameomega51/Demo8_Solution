@@ -1,0 +1,155 @@
+
+2242238@D24304-BGCB3Q3 MINGW64 ~
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+2242238@D24304-BGCB3Q3 MINGW64 ~
+$ pwd
+/c/Users/2242238
+
+2242238@D24304-BGCB3Q3 MINGW64 ~
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+2242238@D24304-BGCB3Q3 MINGW64 ~
+$ cd De
+Demo8_Git Files/     Demo8_Solution/
+Demo8_Git_Files.zip  Desktop/
+
+2242238@D24304-BGCB3Q3 MINGW64 ~
+$ cd De
+Demo8_Git Files/     Demo8_Solution/
+Demo8_Git_Files.zip  Desktop/
+
+2242238@D24304-BGCB3Q3 MINGW64 ~
+$ cd Demo8_Solution/
+
+2242238@D24304-BGCB3Q3 MINGW64 ~/Demo8_Solution (master)
+$ ls
+README.md  bluestyle.css  index.html
+
+2242238@D24304-BGCB3Q3 MINGW64 ~/Demo8_Solution (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+        new file:   bluestyle.css
+        new file:   index.html
+
+
+2242238@D24304-BGCB3Q3 MINGW64 ~/Demo8_Solution (master)
+$ ls -a
+./  ../  .git/  README.md  bluestyle.css  index.html
+
+2242238@D24304-BGCB3Q3 MINGW64 ~/Demo8_Solution (master)
+$ cd
+
+2242238@D24304-BGCB3Q3 MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+'Demo8_Git Files'/
+ Demo8_Git_Files.zip
+ Demo8_Solution/
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{14dba7e2-a932-11ec-9da4-104a7dac578c}.TM.blf
+ NTUSER.DAT{14dba7e2-a932-11ec-9da4-104a7dac578c}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{14dba7e2-a932-11ec-9da4-104a7dac578c}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+2242238@D24304-BGCB3Q3 MINGW64 ~
+$ cd Demo8_Solution/
+
+2242238@D24304-BGCB3Q3 MINGW64 ~/Demo8_Solution
+$ git statis
+git: 'statis' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+2242238@D24304-BGCB3Q3 MINGW64 ~/Demo8_Solution
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+2242238@D24304-BGCB3Q3 MINGW64 ~/Demo8_Solution
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+2242238@D24304-BGCB3Q3 MINGW64 ~/Demo8_Solution (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+2242238@D24304-BGCB3Q3 MINGW64 ~/Demo8_Solution (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+2242238@D24304-BGCB3Q3 MINGW64 ~/Demo8_Solution (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+2242238@D24304-BGCB3Q3 MINGW64 ~/Demo8_Solution (master)
+$ git add index.html
+
+2242238@D24304-BGCB3Q3 MINGW64 ~/Demo8_Solution (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+
+2242238@D24304-BGCB3Q3 MINGW64 ~/Demo8_Solution (master)
+$
+
+https://github.com/Codenameomega51/Demo8_Solution
